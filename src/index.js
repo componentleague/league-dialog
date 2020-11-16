@@ -57,6 +57,10 @@ export class LeagueDialog extends LitElement {
     this.parentElement.addEventListener("toggle", (e) => {
       this.open = this.parentElement.open;
     });
+
+    // A11y
+    this.setAttribute("aria-modal", "true");
+    this.setAttribute("role", "dialog");
   }
 
   firstUpdated() {
