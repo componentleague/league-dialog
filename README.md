@@ -8,9 +8,9 @@ import "./style.css";
 
 # League Dialog
 
-A custom dialog element `<league-dialog>` that works with `<details>` allowing it to be used without JavaScript, providing progressive enhancement.
+A custom dialog element `<league-dialog>` with a11y focus and works with `<details>` allowing it to be used without JavaScript, providing progressive enhancement.
 
-This is is inspired by the [GitHub details-dialog](https://github.com/github/details-dialog-element) custom element. This element differs in that it is easier to customize / extend, and also dependant on LitElement.
+This is is inspired by the [GitHub details-dialog](https://github.com/github/details-dialog-element) custom element. This element differs in that it is easier to customize / extend, a bit more rigid with its a11y, and also dependant on LitElement.
 
 The element can either:
 
