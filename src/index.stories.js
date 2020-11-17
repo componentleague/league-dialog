@@ -11,9 +11,9 @@ export const story1 = () => html`
   <link rel="stylesheet" href="style.css" />
 
   <section>
-    <details class="with-dialog"
-      ><summary class="button">Open Dialog</summary>
-      <league-dialog>
+    <details>
+      <summary class="button">Open Details Dialog</summary>
+      <league-dialog aria-label="Sample Dialog">
         <header slot="header">Header</header>
         <section>
           <form action=".">
@@ -30,14 +30,13 @@ export const story1 = () => html`
   <section>
     <button
       class="button"
-      @click=${(e) =>
-        e.target.closest("section").querySelector("#dialog").show()}
+      onclick="document.querySelector('#dialog').show(this)"
     >
-      Trigger Details
+      Open Stand Alone Dialog
     </button>
-    <league-dialog id="dialog">
+    <league-dialog aria-label="Sample Dialog" id="dialog">
       <header slot="header">Header</header>
-      <section slot="content">
+      <section>
         <form action=".">
           <label>Name <input /></label>
         </form>

@@ -30,11 +30,16 @@ details.with-dialog[open] > summary:before {
 }
 
 .button {
+  display: inline-block;
   padding: 8px;
   background-color: #e5e5e5;
+  color: #333;
   border-radius: 5px;
   list-style: none;
   border: none;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 league-dialog > * {
