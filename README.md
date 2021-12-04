@@ -19,6 +19,8 @@ The element can either:
 
 ## Example
 
+To see a demo, [Play with example on webcomponents.dev](https://webcomponents.dev/edit/fPWSzfxN5BoVxHU8yTxs)
+
 Normally, placed in a `<details>`, which allows it to work without JavaScript:
 
 ```html preview-story
